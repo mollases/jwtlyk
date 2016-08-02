@@ -1,0 +1,67 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans'), local('JosefinSans'), url(https://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5ojoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans'), local('JosefinSans'), url(https://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5hampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v8/10JVD_humAd5zP2yrFqw6hampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	background: #f7f7f7;
+}
+
+header {
+	min-height: 50px;
+	text-align: center;
+}
+
+article {
+  font-family: 'Indie Flower', cursive;
+	font-size: 1.2em;
+	padding: 2em;
+  width: 285px;
+  margin: 0 auto;
+}
+
+aside {
+	text-align: center;
+}
+
+footer {
+	min-height: 50px;
+	text-align: center;
+}
+
+.note {
+	background: #ffffa5;
+	-webkit-box-shadow: 0px 0px 122px 5px rgba(0,0,0,0.51);
+	-moz-box-shadow: 0px 0px 122px 5px rgba(0,0,0,0.51);
+	box-shadow: 0px 0px 122px 5px rgba(0,0,0,0.51);
+	border-radius: 5px;
+	padding: 25px;
+}
+
+.link a {
+	color: rgba(119, 119, 119, 0.54);
+	line-height: 2em;
+  font-size: .9em;
+}
